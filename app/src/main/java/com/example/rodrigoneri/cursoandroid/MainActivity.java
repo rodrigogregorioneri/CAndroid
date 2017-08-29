@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     String [] alunos = {"Rodrigo", "Priscila","Ivone"};
     ListView lista_alunos = (ListView) findViewById(R.id.lista);
-    new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1);
+    new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, alunos);
 
   }
 }
