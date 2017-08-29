@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
 
     String [] alunos = {"Rodrigo", "Priscila","Ivone"};
-    ListView lista_alunos; findViewById(R.id.lista);
+    ListView lista_alunos = (ListView) findViewById(R.id.lista);
 
   }
 }
