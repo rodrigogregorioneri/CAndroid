@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
 
     // Cria e popula Array de alunos "String"
-    String [] alunos = {"Rodrigo", "Priscila","Ivone"};
+    String [] alunos = {"Rodrigo", "Priscila","Ivone","Carlos"};
 
     //Cria obtém a ListView e faz uma Casting(Conversão) para ListView pois ela é um xml
     ListView lista_alunos = (ListView) findViewById(R.id.lista);
