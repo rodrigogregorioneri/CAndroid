@@ -14,7 +14,7 @@ public class FormActivity extends AppCompatActivity {
 
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
-   MenuInflater inflate = getMenuInflater();
+    MenuInflater inflate = getMenuInflater();
     inflate.inflate(R.menu.menu_formulario, menu);
     return super.onCreateOptionsMenu(menu);
   }
@@ -22,9 +22,15 @@ public class FormActivity extends AppCompatActivity {
 
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
-    // Imprimindo mensagem com Toast
-    Toast.makeText(getBaseContext(), "teste", Toast.LENGTH_SHORT).show();
-    finish();
+
+    switch (item.getItemId()) {
+      case R.id.menu_formulario_ok:
+        // Imprimindo mensagem com Toast
+        Toast.makeText(getBaseContext(), "teste", Toast.LENGTH_SHORT).show();
+        finish();
+        break;
+    }
+
 
     return super.onOptionsItemSelected(item);
   }
