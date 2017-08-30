@@ -34,6 +34,7 @@ public class FormActivity extends AppCompatActivity {
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
    MenuInflater inflate = getMenuInflater();
+    inflate.inflate(R.menu.menu_formulario, menu);
     return super.onCreateOptionsMenu(menu);
   }
 }
