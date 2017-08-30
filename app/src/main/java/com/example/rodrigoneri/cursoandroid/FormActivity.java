@@ -12,6 +12,7 @@ import android.widget.Toast;
 public class FormActivity extends AppCompatActivity {
 
 
+  // Responsavel por criar o menu a partir de um xml
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
     MenuInflater inflate = getMenuInflater();
@@ -20,9 +21,10 @@ public class FormActivity extends AppCompatActivity {
   }
 
 
+  // Responsavel pelos eventos do Itens do menu
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
-
+    // responsavel por definir o item do menu a ser executado de acordo com o Id
     switch (item.getItemId()) {
       case R.id.menu_formulario_ok:
         // Imprimindo mensagem com Toast
@@ -30,8 +32,6 @@ public class FormActivity extends AppCompatActivity {
         finish();
         break;
     }
-
-
     return super.onOptionsItemSelected(item);
   }
 }
