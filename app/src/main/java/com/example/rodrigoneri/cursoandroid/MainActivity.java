@@ -3,6 +3,7 @@ package com.example.rodrigoneri.cursoandroid;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,6 +24,11 @@ public class MainActivity extends AppCompatActivity {
 
     // Associa a lista ao array adapter apartir disso já deve apresentar a lista na tela
     lista_alunos.setAdapter(adapter);
+
+    // Instanciando o botão Aluno (Floating Button) feito nos commits anteriores
+    Button aluno = (Button) findViewById(R.id.novo_aluno);
+
+
   }
 }
 
