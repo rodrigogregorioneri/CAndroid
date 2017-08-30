@@ -25,3 +25,6 @@ public class MainActivity extends AppCompatActivity {
     lista_alunos.setAdapter(adapter);
   }
 }
+
+
+/*FINALIZANDO O  CAPITULO 2 */
