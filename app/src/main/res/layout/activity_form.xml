@@ -34,5 +34,10 @@
       android:layout_gravity="center"
       android:numStars="5" />
 
+    <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Salvar"/>
+
   </LinearLayout>
 </ScrollView>
