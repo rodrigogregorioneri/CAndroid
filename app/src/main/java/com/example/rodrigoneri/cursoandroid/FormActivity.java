@@ -21,7 +21,7 @@ public class FormActivity extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         // Imprimindo mensagem com Toast
-        Toast.makeText(getBaseContext(), "teste",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getBaseContext(), "teste", Toast.LENGTH_SHORT).show();
 
       }
     });
