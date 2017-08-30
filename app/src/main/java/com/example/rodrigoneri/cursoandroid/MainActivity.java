@@ -1,5 +1,6 @@
 package com.example.rodrigoneri.cursoandroid;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -33,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
     aluno.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-
+          Intent intent = new Intent(MainActivity.this, FormActivity.class);
+        
       }
     });
 
