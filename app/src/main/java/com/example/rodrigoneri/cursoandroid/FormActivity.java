@@ -22,6 +22,7 @@ public class FormActivity extends AppCompatActivity {
       public void onClick(View v) {
         // Imprimindo mensagem com Toast
         Toast.makeText(getBaseContext(), "teste", Toast.LENGTH_SHORT).show();
+        finish();
 
       }
     });
