@@ -4,5 +4,6 @@
   tools:contexto="com.example.rodrigoneri.cursoandroid.FormActivity">
  <item android:id="@+id/menu_formulario_ok"
    android:title="Ok"
-   android:icon="@drawable/ic_confirmar"></item>
+   android:icon="@drawable/ic_confirmar"
+   app:showAsAction="always"></item>
 </menu>
