@@ -36,13 +36,7 @@ public class FormActivity extends AppCompatActivity {
         // Imprimindo mensagem com Toast
         Aluno aluno = helper.pegaAluno();
 
-
-
-
-
-
-
-        Toast.makeText(getBaseContext(), aluno.getNota().toString() , Toast.LENGTH_SHORT).show();
+        Toast.makeText(getBaseContext(), "Salvo com sucesso "+aluno.getNome().toString() , Toast.LENGTH_SHORT).show();
         finish();
         break;
     }
