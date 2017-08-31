@@ -28,7 +28,7 @@ public class FormularioHelper {
     aluno.setSite(CampoSite.getText().toString());
     aluno.setNota(Double.valueOf(CampoNota.getProgress()));
 
-    return null;
+    return aluno;
   }
 
 }

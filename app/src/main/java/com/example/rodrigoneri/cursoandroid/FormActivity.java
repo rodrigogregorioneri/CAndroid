@@ -42,7 +42,7 @@ public class FormActivity extends AppCompatActivity {
 
 
 
-        Toast.makeText(getBaseContext(), "", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getBaseContext(), aluno.getNota().toString() , Toast.LENGTH_SHORT).show();
         finish();
         break;
     }
