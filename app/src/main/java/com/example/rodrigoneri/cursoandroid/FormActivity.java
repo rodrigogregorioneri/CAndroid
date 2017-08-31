@@ -8,6 +8,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 public class FormActivity extends AppCompatActivity {
@@ -34,7 +35,21 @@ public class FormActivity extends AppCompatActivity {
     switch (item.getItemId()) {
       case R.id.menu_formulario_ok:
         // Imprimindo mensagem com Toast
-        Toast.makeText(getBaseContext(), "teste", Toast.LENGTH_SHORT).show();
+
+        EditText CampoNome = (EditText) findViewById(R.id.formulario_nome);
+        EditText CampoEndereco = (EditText) findViewById(R.id.formulario_endereco);
+        EditText CampoTelefone = (EditText) findViewById(R.id.formulario_telefone);
+        EditText CampoSite = (EditText) findViewById(R.id.formulario_site);
+
+
+        String nome = CampoNome.getText().toString();
+        String endereco = CampoEndereco.getText().toString();
+        String telefone = CampoTelefone.getText().toString();
+        String site = CampoSite.getText().toString();
+
+
+
+        Toast.makeText(getBaseContext(), nome, Toast.LENGTH_SHORT).show();
         finish();
         break;
     }
