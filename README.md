@@ -1,1 +1,3 @@
 # CursoAndroid
+
+Desenvolvedor: Rodrigo Neri
