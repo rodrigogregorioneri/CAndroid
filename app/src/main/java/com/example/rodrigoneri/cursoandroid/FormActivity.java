@@ -1,5 +1,6 @@
 package com.example.rodrigoneri.cursoandroid;
 
+import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,6 +12,11 @@ import android.widget.Toast;
 
 public class FormActivity extends AppCompatActivity {
 
+  @Override
+  public void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_form);
+  }
 
   // Responsavel por criar o menu a partir de um xml
   @Override
